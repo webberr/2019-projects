@@ -18,6 +18,11 @@ AWS Cognito, and Active Directory.
 ### Vue
 - Vue Cognito Sample
 
+### Going Serverless
+- Build small projects
+- Explore Lambda and Azure functions
+- Security review
+
 ### Blog with weekly security topics
 tips
 links
