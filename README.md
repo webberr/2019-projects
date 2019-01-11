@@ -8,6 +8,8 @@ AWS Cognito, and Active Directory.
 ### Angular
 - Angular Cognito Sample
 - Angular Auth0 Sample
+  https://stackblitz.com/edit/auth0-pv7kqq?file=package.json
+  https://auth0.com/docs/quickstart/spa/angular2/01-login
 - Angular AD Sample
 
 ### React
