@@ -25,7 +25,12 @@ AWS Cognito, and Active Directory.
 - Explore Lambda and Azure functions
 - Security review
 
+### AWS Services
+- Review Zelkova
+- Cognito Review
+- IAM best practices
+
 ### Blog with weekly security topics
-tips
-links
-demos
+- tips
+- links
+- demos
