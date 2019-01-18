@@ -30,6 +30,10 @@ AWS Cognito, and Active Directory.
 - Cognito Review
 - IAM best practices
 
+### Azure Services
+- Python Examples
+- Kubernetes demo
+
 ### Blog with weekly security topics
 - tips
 - links
