@@ -24,6 +24,7 @@ AWS Cognito, and Active Directory.
 - Build small projects
 - Explore Lambda and Azure functions
 - Security review
+- Raspberry Pi K8s cluster build
 
 ### AWS Services
 - Review Zelkova
