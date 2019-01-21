@@ -34,6 +34,7 @@ AWS Cognito, and Active Directory.
 ### Azure Services
 - Python Examples
 - Kubernetes demo
+- IAM best practices
 
 ### Blog with weekly security topics
 - tips
