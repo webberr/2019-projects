@@ -5,6 +5,6 @@ def openOrSenior(data):
         res.append("Senior")
       else:
         res.append("Open")
-    return res
+    print(res)
 
 openOrSenior([[59, 12],[55,-1],[12, -2],[12, 12]])
