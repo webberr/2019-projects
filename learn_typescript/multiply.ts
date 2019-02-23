@@ -1,3 +1,5 @@
-function mult(a,b) {
+export function mult(a,b) {
     return a * b;
 }
+
+console.log(mult(5,6));
