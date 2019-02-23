@@ -1,4 +1,4 @@
-def character = {
+character = {
 	'name':"",
 	'level':0,
 	'health':100,
@@ -6,16 +6,15 @@ def character = {
 	'armor': {
 		'head':{},
 		'chest':{},
-		'shoulders':{}
+		'shoulders':{},
 		'legs':{},
 		'feet':{}
 	},
 	'weapon':[],
-	inventory:{
+	'inventory': {
 		'rusty knife':1,
 		'berries':5,
 		'meat':5,
 		'basic trap':5
 	}
 }
-

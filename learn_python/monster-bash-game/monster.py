@@ -1,7 +1,7 @@
 # Monster definition
 
-def monster = {
-	'name':""
+monster = {
+	'name':"",
 	'type':"",
 	'ability':"",
 	'damage':0,
