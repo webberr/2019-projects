@@ -1,0 +1,14 @@
+{
+  "name": "typescript_node_sample",
+  "version": "0.1.0",
+  "description": "Learning Typescript with Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Ryan Webber",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.3.3333"
+  }
+}
