@@ -1,3 +1,5 @@
+import sys
+
 character = {
 	'name':"",
 	'level':0,
@@ -7,6 +9,7 @@ character = {
 		'head':{},
 		'chest':{},
 		'shoulders':{},
+		'hands': {},
 		'legs':{},
 		'feet':{}
 	},
@@ -18,3 +21,8 @@ character = {
 		'basic trap':5
 	}
 }
+
+def new_char():
+	#
+	sys.path('character.dat')
+	print('saved')
