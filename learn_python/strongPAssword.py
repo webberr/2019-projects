@@ -7,10 +7,12 @@ def strongPass(password):
         return False
     
     # must contain upper and lower chars
-    if(password.search([a-z]|[A-z]) == None):
+    if(re.search('[a-zA-Z]', password) == None):
         return False
 
-password = 'abc123bca'
+    return True
+
+password = 'a12345678'
 if(strongPass(password)):
     print(password + ' is Strong')
 else:
