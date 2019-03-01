@@ -1,9 +1,12 @@
+import sys
 import os
 import character
 import monster
 import game
 
-def start_game():
+character = {}
+
+def intro():
     #
     print("********************************************************")
     for i in range(2):
@@ -16,9 +19,10 @@ def start_game():
 def main():
     #
     if os.path.exists('character.dat'):
-        start_game(os.open('character.dat'))
+        character = loadChar()
     else:
-        new_char()
+        character = newChar()
 
 if __name__ == '__main__':
+    intro()
     main()
