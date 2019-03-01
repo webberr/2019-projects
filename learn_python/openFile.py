@@ -10,7 +10,15 @@ myFiles = ['index.ejs', 'README.md', 'package.json']
 #         print(os.path.join('C:\\Users\\ryan_\\src', filename))
 
 installDir = 'C:\\InstallDir\\'
-if(not os.path.exists(installDir)):
-    os.makedirs(installDir)
+totalSize = 0
+# if(not os.path.exists(installDir)):
+#     os.makedirs(installDir)
 
-print(os.path.realpath(installDir))
+# os.path.getsize('C:\\Windows\\System32\\calc.exe')
+# os.listdir('C:\\Windows\\System32')
+
+# print(os.path.realpath(installDir))
+for filename in os.listdir('C:\\Windows\\System32'):
+      totalSize = totalSize + os.path.getsize(os.path.join('C:\\Windows\\System32', filename))
+
+print(totalSize)
