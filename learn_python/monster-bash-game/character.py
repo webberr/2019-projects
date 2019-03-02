@@ -1,4 +1,5 @@
 import os
+import ast
 
 character = {
 	'name':"",
@@ -24,12 +25,13 @@ character = {
 
 def newChar(name):
 	# Create a new character loading the character dictionary, and save to a dat file
-	charFile = os.open("character.dat", "w+")
+	charFile = open('character.dat', 'w+')
 	character['name'] = name
-	charFile.write(character)
+	charFile.write(str(character))
 	print('saved')
 
 def loadChar():
 	# Open a file, and save the values into a character dictionary that will be used in the program
-	datFile = os.open('character.dat')
-	return datFile
+	datFile = open('character.dat', 'r')
+	content = datFile.read()
+	return ast.literal_eval(content)
