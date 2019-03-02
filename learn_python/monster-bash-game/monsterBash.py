@@ -1,10 +1,10 @@
 import sys
 import os
-import character
+import character as char
 import monster
 import game
 
-character = {}
+gameChar = {}
 
 def intro():
     #
@@ -19,9 +19,11 @@ def intro():
 def main():
     #
     if os.path.exists('character.dat'):
-        character = loadChar()
+        gameChar = char.loadChar()
     else:
-        character = newChar()
+        print("Please enter the name of your character: ")
+        name = sys.argv[0]
+        gameChar = char.newChar(name)
 
 if __name__ == '__main__':
     intro()
