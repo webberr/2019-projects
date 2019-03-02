@@ -1,10 +1,9 @@
 import sys
 import os
+import ast
 import character as char
 import monster
 import game
-
-gameChar = {}
 
 def intro():
     #
@@ -15,15 +14,24 @@ def intro():
     for i in range(2):
         print("**                                                    **")
     print("********************************************************")
+    print('\n')
 
 def main():
     #
+    gameChar = {}
     if os.path.exists('character.dat'):
         gameChar = char.loadChar()
     else:
         print("Please enter the name of your character: ")
-        name = sys.argv[0]
+        name = input()
         gameChar = char.newChar(name)
+    
+    print('Welcome ' + gameChar['name'])
+    gameState = ""
+    while 'quit' or 'Q' not in gameState:
+        gameState = input()
+        if gameState == 'quit' or 'Q':
+            break
 
 if __name__ == '__main__':
     intro()
