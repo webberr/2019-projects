@@ -22,9 +22,9 @@ character = {
 	}
 }
 
-def newchar(name):
+def newChar(name):
 	# Create a new character loading the character dictionary, and save to a dat file
-	charFile = os.open('character.dat', 'w')
+	charFile = os.open("character.dat", "w+")
 	character['name'] = name
 	charFile.write(character)
 	print('saved')
