@@ -26,6 +26,9 @@ character = {
 def showInv():
 	return str(character['inventory'])
 
+def useInv(item):
+	print(item)
+
 def newChar(name):
 	# Create a new character loading the character dictionary, and save to a dat file
 	charFile = open('character.dat', 'w+')

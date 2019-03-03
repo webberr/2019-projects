@@ -15,9 +15,10 @@ def intro():
         print("**                                                    **")
     print("********************************************************")
     print('\n')
+    print('Press \'Q\' or \'quit\' to quit the game')
+    print('Press \'inv\' to show your inventory player\'s inventory')
 
 def main():
-    #
     gameChar = {}
     if os.path.exists('character.dat'):
         gameChar = char.loadChar()
@@ -30,7 +31,11 @@ def main():
     gameState = ""
     while 'quit' or 'Q' not in gameState:
         gameState = input()
-        if gameState == 'quit' or 'Q':
+        if gameState == 'inv':
+            print(char.showInv())
+        elif gameState.find('use'):
+            char.useInv(gameState)
+        elif gameState == 'quit' or 'Q':
             break
 
 if __name__ == '__main__':
