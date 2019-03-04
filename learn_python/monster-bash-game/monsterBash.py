@@ -33,8 +33,6 @@ def main():
         gameState = input()
         if gameState == 'inv':
             print(char.showInv())
-        elif gameState.find('use'):
-            char.useInv(gameState)
         elif gameState == 'quit' or 'Q':
             break
 
