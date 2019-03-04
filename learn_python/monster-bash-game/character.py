@@ -29,6 +29,12 @@ def showInv():
 def useInv(item):
 	print(item)
 
+def showHealth():
+	return str(character['health'])
+	
+def showLevel():
+	return str(character['level'])
+
 def newChar(name):
 	# Create a new character loading the character dictionary, and save to a dat file
 	charFile = open('character.dat', 'w+')
