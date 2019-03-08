@@ -6,6 +6,3 @@ deadline = date(today.year, 5, 24)
 
 if deadline > today:
     print(deadline - today)
-
-
-
