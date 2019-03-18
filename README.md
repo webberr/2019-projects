@@ -2,8 +2,7 @@
 
 ## List of sample goals and projects to create in 2019
 
-Create sample applications to showcase best practices in application security. Use Angular, Vue, and React as well as vanilla JS or JQuery. Also authenticate with Auth0, 
-AWS Cognito, and Active Directory. 
+Create sample applications to showcase best practices in application security. Use Angular, Vue, and React as well as vanilla JS or JQuery. Also authenticate with Auth0, AWS Cognito, and Active Directory. I will need to find a system to prioritize the list as I won't likely get to all of the projets this year.  
 
 ### Angular
 - Angular Cognito Sample
