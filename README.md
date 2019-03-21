@@ -38,4 +38,9 @@ Create sample applications to showcase best practices in application security. U
 ### Blog with weekly security topics
 - tips
 - links
-- demos
+- demos of what to do and what not to do
+
+### Apps
+- Monster Bash Game
+- Priority App
+- Throw Count
