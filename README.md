@@ -36,11 +36,11 @@ Create sample applications to showcase best practices in application security. U
 - IAM best practices
 
 ### Blog with weekly security topics
-- tips
-- links
-- demos of what to do and what not to do
+- Share security tips
+- Create a list of links and resources
+- Create duplicate secure demos of existing popular tutorials 
 
 ### Apps
 - Monster Bash Game
 - Priority App
-- Throw Count
+- Vulnerability Management
