@@ -44,3 +44,5 @@ Create sample applications to showcase best practices in application security. U
 - Monster Bash Game
 - Priority App
 - Vulnerability Management
+- Priority Manager
+- Preps List
