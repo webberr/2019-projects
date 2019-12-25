@@ -5,7 +5,7 @@
 Create sample applications to showcase best practices in application security. Use Angular, Vue, and React as well as vanilla JS or JQuery. Also authenticate with Auth0, AWS Cognito, and Active Directory. I will need to find a system to prioritize the list as I won't likely get to all of the projets this year.  
 
 ### Angular
-- Angular Cognito Sample
+- ~~Angular Cognito Sample~~
 - Angular Auth0 Sample
   https://stackblitz.com/edit/auth0-pv7kqq?file=package.json
   https://auth0.com/docs/quickstart/spa/angular2/01-login
@@ -13,14 +13,14 @@ Create sample applications to showcase best practices in application security. U
 
 ### React
 - React Cognito Sample
-- React Auth0 Sample
+- ~~React Auth0 Sample~~
 - React AD Sample
 
 ### Vue
 - Vue Cognito Sample
 
 ### Going Serverless
-- Build small projects
+- ~~Build small projects~~
 - Explore Lambda and Azure functions
 - Security review
 - Raspberry Pi K8s cluster build
@@ -28,7 +28,7 @@ Create sample applications to showcase best practices in application security. U
 ### AWS Services
 - Review Zelkova
 - Cognito Review
-- IAM best practices
+- ~~IAM best practices~~
 
 ### Azure Services
 - Python Examples
